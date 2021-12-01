@@ -1,4 +1,3 @@
-vim ping.yml 
 ---
 - hosts: testB
   remote_user: root
