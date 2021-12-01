@@ -1,0 +1,11 @@
+vim ping.yml 
+---
+- hosts: testB
+  remote_user: root
+  tasks:
+  - name: ping the host
+    ping:
+  - name: make directory haha
+    file:
+      path: /testdir/haha
+      state: directory
